@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto Web 1 - Examen 2</title>
+  <link rel="stylesheet" href="css/tour.css">
+  <style>
+    .portada {
+      background-image: url('imagenes/fondo.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: black; /* Cambié el color del texto a negro */
+      text-align: center;
+    }
+
+    .portada button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #28a745; /* Botón verde */
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+    .portada button:hover {
+      background-color: #218838; /* Verde más oscuro al hacer hover */
+    }
+  </style>
+</head>
+<body>
+  <div class="portada">
+    <img src="imagenes/cenfo.png" alt="CENFO Logo" style="max-width: 200px; margin-bottom: 20px;">
+    <h1 style="font-weight: bold;">Proyecto Web 1</h1>
+
+    <button onclick="location.href='tour.html'">Iniciar Tour</button>
+  </div>
+</body>
+</html>

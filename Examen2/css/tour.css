@@ -1,0 +1,49 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #ffffff;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+#container_principal {
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+}
+
+.portada {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  background-color: white;
+}
+
+.portada img {
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+
+.portada h1 {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.portada p {
+  margin: 10px 0 20px;
+}
+
+.portada button {
+  padding: 12px 24px;
+  font-size: 1.1em;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
